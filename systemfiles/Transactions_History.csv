@@ -1,0 +1,11 @@
+Transaction ID,Customer ID,Products Purchased,Quantity,Total Cost,Date
+501,201,Wireless Mouse;Mechanical Keyboard,1;1,119.98,2025-03-01
+502,202,Atomic Habits,1,16.20,2025-03-02
+503,203,Smartphone,1,699.00,2025-03-03
+504,204,The Silent Patient;Becoming;The Alchemist,1;1;1,40.79,2025-03-04
+505,205,4K Monitor;Portable SSD,1;1,449.94,2025-03-05
+506,206,Smartwatch,2,498.00,2025-03-06
+507,207,Where the Crawdads Sing,1,11.99,2025-03-07
+508,208,Laptop Stand;Wireless Mouse,1;2,99.97,2025-03-08
+509,209,Dune;Project Hail Mary,1;1,34.49,2025-03-08
+510,210,Electric Toothbrush,3,179.97,2025-03-09
