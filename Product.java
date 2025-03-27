@@ -19,7 +19,7 @@ public class Product {
 	}
 
 	// Electronic Product Subclass
-	public class ElectronicProduct extends Product {
+	public static class ElectronicProduct extends Product {
 		// Electronic Product Attributes
 		private String brand;
 		private String model;
@@ -35,10 +35,23 @@ public class Product {
 			this.model = model;
 			this.warrantyPeriod = warrantyPeriod;
 		}
+
+		// Override default print format
+		@Override
+		public String toString() {
+			return "\n\n\tProduct ID: " + this.productID +
+			       "\n\tName: " + this.name +
+			       "\n\tPrice: " + this.price +
+			       "\n\tDescription: " + this.description +
+			       "\n\tStock Quantity: " + this.stockQuantity +
+			       "\n\tBrand: " + this.brand +
+			       "\n\tModel: " + this.model +
+			       "\n\tWarranty Period: " + this.warrantyPeriod;
+		}
 	}
 
 	// Book Subclass
-	public class Book extends Product {
+	public static class Book extends Product {
 		// Book Attributes
 		private String author;
 		private long ISBN;
