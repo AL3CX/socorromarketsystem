@@ -26,8 +26,36 @@ public class Product {
 		private String warrantyPeriod;
 
 		// Electronic Product Constructor
-		public ElectronicProduct(String brand, String model,
-					  String warrantyPeriod) {
-			super(
+		public ElectronicProduct(int productID, String name, double price,
+								 String description, int stockQuantity,
+								 String brand, String model,
+					  			 String warrantyPeriod) {
+			super(productID, name, price, description, stockQuantity);
+			this.brand = brand;
+			this.model = model;
+			this.warrantyPeriod = warrantyPeriod;
 		}
+	}
+
+	// Book Subclass
+	public class Book extends Product {
+		// Book Attributes
+		private String author;
+		private long ISBN;
+		private String publisher;
+		private String genre;
+
+		// Book Constructor
+		public Book(int productID, String name, double price,
+					String description, int stockQuantity,
+					String author, long ISBN, String publisher,
+					String genre) {
+			super(productID, name, price, description, stockQuantity);
+			this.author = author;
+			this.ISBN = ISBN;
+			this.publisher = publisher;
+			this.genre = genre;
+		}
+	}
+}
 
