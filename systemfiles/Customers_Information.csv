@@ -1,5 +1,5 @@
 Customer ID,Name,Phone #,Email,Purchase History
-201,Jane Doe,555-1234,jane.doe@example.com,501
+201,Jane Doe,555-1234,jane.doe@example.com,501;512;513;514
 202,Michael Smith,,m.smith@example.com,502
 203,Amira Patel,555-9876,,503
 204,Carlos Reyes,555-1122,carlos.reyes@example.com,504
