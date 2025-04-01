@@ -2,13 +2,13 @@ package socorromarketsystem;
 
 // Book Subclass
 public class Book extends Product {
-	// Book Attributes
+	// Book attributes
 	private String author;
 	private long ISBN;
 	private String publisher;
 	private String genre;
 
-	// Book Constructor
+	// Book constructor
 	public Book(int productID, String name, double price,
 				String description, int stockQuantity,
 				String author, long ISBN, String publisher,
@@ -20,7 +20,7 @@ public class Book extends Product {
 		this.genre = genre;
 	}
 
-	// Setters + Getters
+	// Setters + Getters needed
 	public String getAuthor() { return this.author; }
 	public long getISBN() { return this.ISBN; }
 	public String getPublisher() { return this.publisher; }

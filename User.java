@@ -11,7 +11,6 @@ public class User {
 		this.name = name;
 	}
 
-	// Setters + Getters
+	// Setters + Getters needed
 	public String getName() { return this.name; }
-	public void setName(String name) { this.name = name; }
 }
