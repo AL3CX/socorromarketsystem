@@ -20,11 +20,8 @@ public class ElectronicProduct extends Product {
 	
 	// Setters + Getters
 	public String getBrand() { return this.brand; }
-	public void setBrand(String brand) { this.brand = brand; }
 	public String getModel() { return this.model; }
-	public void setModel(String model) { this.model = model; }
 	public String getWarrantyPeriod() { return this.warrantyPeriod; }
-	public void setWarrantyPeriod(String warrantyPeriod) { this.warrantyPeriod = warrantyPeriod; }
 
 	// Override default print format
 	@Override
